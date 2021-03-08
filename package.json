@@ -2,11 +2,17 @@
   "name": "tron-bot",
   "version": "1.0.0",
   "description": "Discord Bot for The Grid discord server related to the open source tron lightcycle game Armagetron/Retrocycles.",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
